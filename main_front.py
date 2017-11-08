@@ -15,7 +15,7 @@ class CheckoutScreen(Screen):
 class ScreenManagement(ScreenManager):
     pass
 
-presentation = Builder.load_file("P05_Ponto_front_style.kv")
+presentation = Builder.load_file("main_style.kv")
 
 class MainApp (App):
     def build(self):
